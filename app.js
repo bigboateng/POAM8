@@ -58,7 +58,7 @@ app.use(function(err, req, res, next) {
 var port = 1317 || port.env.PORT;
 
 app.listen(port, function(){
-    console.log("listening on port " + port);
+    console.log("listening on port " + port)
 });
 
 
